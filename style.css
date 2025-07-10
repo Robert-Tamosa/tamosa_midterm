@@ -1,0 +1,23 @@
+body {
+    background-color: #F9C265;
+}
+.header > h1 {
+    display: inline;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    margin-left: 100px;
+}
+.header h1:first-child {
+    font-weight: 700;
+}
+.header h1:nth-child(4) {
+    margin-left: 700px;
+}
+.img1 {
+    position: relative;
+    left: 10rem;
+}
