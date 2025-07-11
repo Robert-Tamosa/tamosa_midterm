@@ -1,5 +1,6 @@
 body {
-    background-color: #F9C265;
+    margin: 0;
+    padding : 0;
 }
 .header > h1 {
     display: inline;
@@ -7,17 +8,88 @@ body {
     font-size: 20px;
     font-weight: 600;
     position: relative;
-    top: 3rem;
-    left: 2rem;
-    margin-left: 100px;
+    top: 2rem;
+    left: 4rem;
+    margin-left: 75px;
 }
 .header h1:first-child {
     font-weight: 700;
 }
 .header h1:nth-child(4) {
-    margin-left: 700px;
+    margin-left: 750px;
+}
+.header h1:nth-child(5) {
+    background: black;
+    color: white;
+    font-weight: 400;
+    border-radius: 30px;
+    padding: 15px;
+    margin-left: 20px;
+}
+.header {
+    background: #F9C265;
+    height: 117px;
 }
 .img1 {
     position: relative;
-    left: 10rem;
+    left: 43rem;
+    bottom: 2rem;
+}
+.large > h1:first-child {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    left: 7.2rem;
+}
+.large > h1:nth-child(2) {
+    font-family: Pattaya;
+    font-size: 60px;
+    font-weight: 400;
+    background: black;
+    border-radius: 50px;
+    color: #F9C265;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    left: 6rem;
+    bottom: 4.3rem;
+}
+.large > h1:nth-child(3) {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    left: 20rem;
+    bottom: 14rem;
+}
+.speed {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 21px;
+    color: black;
+    width: 450px;
+    position: relative;
+    left: 61rem;
+    bottom: 28.8rem;
+}
+.enroll {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 21px;
+    background: #F9C265;
+    width: 200px;
+    border-radius: 30px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    left: 61rem;
+    bottom: 29.5rem;
+}
+.boypic {
+    position: relative;
+    left: 20rem;
+    bottom: 30rem;
 }
