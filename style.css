@@ -37,14 +37,14 @@ body {
 }
 .large > h1:first-child {
     font-family: Montserrat;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 600;
     position: relative;
     left: 7.2rem;
 }
 .large > h1:nth-child(2) {
     font-family: Pattaya;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 400;
     background: black;
     border-radius: 50px;
@@ -58,11 +58,11 @@ body {
 }
 .large > h1:nth-child(3) {
     font-family: Montserrat;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 600;
     position: relative;
     left: 20rem;
-    bottom: 14rem;
+    bottom: 17.5rem;
 }
 .speed {
     font-family: Montserrat;
@@ -72,24 +72,109 @@ body {
     width: 450px;
     position: relative;
     left: 61rem;
-    bottom: 28.8rem;
+    bottom: 37rem;
 }
 .enroll {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 21px;
     background: #F9C265;
-    width: 200px;
-    border-radius: 30px;
-    padding: 5px;
+    width: 250px;
+    height: 75px;
+    border-radius: 40px;
+    padding: 2px;
+    line-height: 150%;
     border: 1px solid black;
     text-align: center;
     position: relative;
     left: 61rem;
-    bottom: 29.5rem;
+    bottom: 37rem;
 }
-.boypic {
+.boypic > img{
     position: relative;
-    left: 20rem;
-    bottom: 30rem;
+    left: 16rem;
+    bottom: 36.5rem;
+    width: 1000px;
+}
+.section {
+    background: #F9C265;
+    height: 1012px;
+    position: relative;
+    bottom: 4rem;
+}
+.m > h1{
+    font-family: Montserrat;
+    font-size: 63px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 250px;
+    position: relative;
+    top: 2.5rem;
+}
+.p > p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline;
+}
+.p > p:first-child{
+    margin-left: 250px;
+}
+.p > p:nth-child(2){
+    margin-left: 243px;
+}
+.p > p:nth-child(3){
+    margin-left: 289px;
+}
+.p > p:nth-child(4){
+    margin-left: 313px;
+}
+.we > h1{
+    font-family: Montserrat;
+    font-size: 63px;
+    font-weight: 500;
+    letter-spacing: 3%;
+}
+.we > h1:first-child{
+    position: relative;
+    top: 5rem;
+    left: 67.5rem;
+}
+.we > h1:nth-child(2){
+    position: relative;
+    top: 1rem;
+    left: 67rem;
+    font-family: Pattaya;
+    font-size: 65px;
+    background: #F9C265;
+    border-radius: 50px;
+    height: 75px;
+    width: 200px;
+    text-align: center;
+    border: 3px solid black;
+    line-height: 125%;
+}
+.we > h1:nth-child(3){
+    position: relative;
+    left: 80rem;
+    bottom: 9rem;
+}
+.we > h1:nth-child(4){
+    position: relative;
+    bottom: 15rem;
+    left: 67rem;
+}
+.p2 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    width: 450px;
+    line-height: 150%;
+    position: relative;
+    left: 67.5rem;
+    bottom: 17rem;
+}
+.sec3 {
+    background: #FDF6E4;
+    height: 650px;
 }
