@@ -1,180 +1,749 @@
-body {
-    margin: 0;
-    padding : 0;
+body{
+    background: #C2CAE8;
 }
-.header > h1 {
+.logo{
     display: inline;
-    font-family: Montserrat;
+    background: #111D4A;
+    margin-left: 180px;
+    
+}
+.logo > h1{
+    display: inline;
+    font-weight: 600;
+}
+.logo > h1:nth-child(2){
+    background-color: #FFBE0B;
+    color: #FF006E;
+    border-radius: 5px; 
+    padding: 0.5px;
+    
+}
+.headers{
+    display: inline;
+    background: #111D4A;
+    margin-left: 100px;
+    
+    
+}
+.headers > h1{
+    display: inline;
+    margin-left: 100px;
+    font-weight: 300;
     font-size: 20px;
-    font-weight: 600;
-    position: relative;
-    top: 2rem;
-    left: 4rem;
-    margin-left: 75px;
 }
-.header h1:first-child {
+.search {
+    display: inline;
+    margin-left: 180px;
+}
+.login{
+    display: inline;
+    
+}
+.login > h1 {
+    display: inline;
+    margin-left: 50px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.tanan {
+    color: #FFFFFF ;    
+    background: #111D4A;
+    padding: 20px;
+    font-family: Inter;
+}
+.join{
+    font-weight: 600;
+    font-family: Inter;
+    color: #111D4A;
+    font-size: 23px;
+    width: 400px;
+    margin-left: 890px;
+}
+.crmc {
+    position: relative;
+    left: 195px;
+}
+.banner {
+    position: relative;
+    left: 285px;
+    bottom: 19.5rem;
+}
+.signup {
+position: relative;
+left: 55.5rem;
+bottom: 40rem;
+}
+.signup-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Inter;
+    position: relative;
+    left: 58rem;
+    bottom: 39rem;
+    width: 380px;
+}
+.question{
+    color: #111D4A;
+    font-size: 36px;
     font-weight: 700;
-}
-.header h1:nth-child(4) {
-    margin-left: 750px;
-}
-.header h1:nth-child(5) {
-    background: black;
-    color: white;
-    font-weight: 400;
-    border-radius: 30px;
-    padding: 15px;
-    margin-left: 20px;
-}
-.header {
-    background: #F9C265;
-    height: 117px;
-}
-.img1 {
+    font-family: Inter;
     position: relative;
-    left: 43rem;
-    bottom: 2rem;
+    left: 12rem;
+    bottom: 35rem;
+    width: 435px;
 }
-.large > h1:first-child {
-    font-family: Montserrat;
-    font-size: 80px;
-    font-weight: 600;
-    position: relative;
-    left: 7.2rem;
-}
-.large > h1:nth-child(2) {
-    font-family: Pattaya;
-    font-size: 80px;
-    font-weight: 400;
-    background: black;
-    border-radius: 50px;
-    color: #F9C265;
-    padding: 10px;
-    width: 200px;
-    text-align: center;
-    position: relative;
-    left: 6rem;
-    bottom: 4.3rem;
-}
-.large > h1:nth-child(3) {
-    font-family: Montserrat;
-    font-size: 80px;
-    font-weight: 600;
-    position: relative;
-    left: 20rem;
-    bottom: 17.5rem;
-}
-.speed {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 21px;
-    color: black;
-    width: 450px;
-    position: relative;
-    left: 61rem;
+.it{
+    font-family: Inter;
+    position : relative;
+    left: 12rem;
     bottom: 37rem;
+    width: 407px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
 }
-.enroll {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 21px;
-    background: #F9C265;
-    width: 250px;
-    height: 75px;
-    border-radius: 40px;
-    padding: 2px;
-    line-height: 150%;
-    border: 1px solid black;
-    text-align: center;
+.skills {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    width: 373px;
+    line-height: 100%;
     position: relative;
-    left: 61rem;
     bottom: 37rem;
+    left:12rem;
 }
-.boypic > img{
+.line {
     position: relative;
-    left: 16rem;
+    bottom: 36rem;
+    width: 350px;
+    right: 26rem;
+    border: 0.5px solid #000000
+}
+.primary{
+
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    width: 407px;
+    position: relative;
     bottom: 36.5rem;
-    width: 1000px;
+    left: 12rem;
 }
-.section {
-    background: #F9C265;
-    height: 1012px;
+.line2 {
     position: relative;
+    bottom: 37rem;
+    width: 350px;
+    right: 26rem;
+    border: 0.5px solid #000000
+}
+.commerce {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    width: 407px;
+    position: relative;
+    bottom: 37.7rem;
+    left: 12rem;
+}
+.line3 {
+    position: relative;
+    bottom: 38.5rem;
+    width: 350px;
+    right: 26rem;
+    border: 0.5px solid #000000
+}
+.crim {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    width: 407px;
+    position: relative;
+    bottom: 39rem;
+    left: 12rem;
+}
+.line4 {
+    position: relative;
+    bottom: 39.5rem;
+    width: 350px;
+    right: 26rem;
+    border: 0.5px solid #000000
+}
+.psych {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    width: 407px;
+    position: relative;
+    bottom: 40rem;
+    left: 12rem;
+}
+.line5 {
+    position: relative;
+    bottom: 40.5rem;
+    width: 350px;
+    right: 26rem;
+    border: 0.5px solid #000000
+}
+.stud{
+    position: relative;
+    bottom: 0.9rem;
+    width: 65px;
+    color: #FFFFFF;
+    background-color: #FF006E;
+    border-radius: 5px;
+    font-family: Inter;
+}
+.stud > h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+    
+}
+.html {
+    position: relative;
+    bottom: 1.9rem;
+    color: #111D4A;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+}
+.list {
+    font-size: 12px;
+    font-family: Inter;
+    position: relative;
+    right: 1.5rem;
     bottom: 4rem;
 }
-.m > h1{
-    font-family: Montserrat;
-    font-size: 63px;
+.number {
+    display: inline;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12px;
+}
+.materials {
+    display: inline;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+}
+.paragraph {
+    position: relative;
+    bottom: 5.5rem;
+    left: 1rem;
+}
+.basics {
+    width: 76px;
+    background-color: #C2CAE8;
+    font-family: Inter;
+    position: relative;
+    left: 11rem;
+    font-weight: 500;   
+    font-size: 16px;
+    bottom: 3.5rem;
+    border-radius: 5px;
+
+}
+.basics > p {
+    margin-left: 10px;
+    padding: 0.5px;
+}
+.box1 {
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 50rem;
+    bottom: 65rem;
+    padding: 12px;
+    border: 2px solid black;
+}
+.stud2{
+    position: relative;
+    bottom: 0.9rem;
+    width: 65px;
+    color: #FFFFFF;
+    background-color: #FF006E;
+    border-radius: 5px;
+    font-family: Inter;
+}
+.stud2 > h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+    
+}
+.css {
+    position: relative;
+    bottom: 1.9rem;
+    color: #111D4A;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+}
+.list2 {
+    font-size: 12px;
+    font-family: Inter;
+    position: relative;
+    right: 1.5rem;
+    bottom: 4rem;
+}
+.number2 {
+    display: inline;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12px;
+}
+.materials2 {
+    display: inline;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+}
+.paragraph2 {
+    position: relative;
+    bottom: 5.5rem;
+    left: 1rem;
+}
+.basics2 {
+    width: 76px;
+    background-color: #C2CAE8;
+    font-family: Inter;
+    position: relative;
+    left: 11rem;
+    font-weight: 500;   
+    font-size: 16px;
+    bottom: 3.5rem;
+    border-radius: 5px;
+
+}
+.basics2 > p {
+    margin-left: 10px;
+    padding: 0.5px;
+}
+.box2 {
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 74.5rem;
+    bottom: 79.3rem;
+    padding: 12px;
+    border: 2px solid black;
+}
+.stud3{
+    position: relative;
+    bottom: 0.9rem;
+    width: 65px;
+    color: #FFFFFF;
+    background-color: #FF006E;
+    border-radius: 5px;
+    font-family: Inter;
+}
+.stud3 > h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+    
+}
+.java {
+    position: relative;
+    bottom: 1.9rem;
+    color: #111D4A;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+}
+.list3 {
+    font-size: 12px;
+    font-family: Inter;
+    position: relative;
+    right: 1.5rem;
+    bottom: 4rem;
+}
+.number3 {
+    display: inline;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12px;
+}
+.materials3 {
+    display: inline;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+}
+.paragraph3 {
+    position: relative;
+    bottom: 5.5rem;
+    left: 1rem;
+}
+.basics3 {
+    width: 76px;
+    background-color: #C2CAE8;
+    font-family: Inter;
+    position: relative;
+    left: 11rem;
+    font-weight: 500;   
+    font-size: 16px;
+    bottom: 3.5rem;
+    border-radius: 5px;
+
+}
+.basics3 > p {
+    margin-left: 10px;
+    padding: 0.5px;
+}
+.box3 {
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 50rem;
+    bottom: 77rem;
+    padding: 12px;
+    border: 2px solid black;
+}
+.stud4{
+    position: relative;
+    bottom: 0.9rem;
+    width: 65px;
+    color: #FFFFFF;
+    background-color: #FF006E;
+    border-radius: 5px;
+    font-family: Inter;
+}
+.stud4 > h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+    
+}
+.php {
+    position: relative;
+    bottom: 1.9rem;
+    color: #111D4A;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+}
+.list4 {
+    font-size: 12px;
+    font-family: Inter;
+    position: relative;
+    right: 1.5rem;
+    bottom: 4rem;
+}
+.number4 {
+    display: inline;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12px;
+}
+.materials4 {
+    display: inline;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+}
+.paragraph4 {
+    position: relative;
+    bottom: 5.5rem;
+    left: 1rem;
+}
+.basics4 {
+    width: 76px;
+    background-color: #C2CAE8;
+    font-family: Inter;
+    position: relative;
+    left: 11rem;
+    font-weight: 500;   
+    font-size: 16px;
+    bottom: 3.5rem;
+    border-radius: 5px;
+
+}
+.basics4 > p {
+    margin-left: 10px;
+    padding: 0.5px;
+}
+.box4 {
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 74.5rem;
+    bottom: 91.2rem;
+    padding: 12px;
+    border: 2px solid black;
+}
+.more {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    bottom: 91.5rem;
+    left: 89rem;
+}
+.not {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    color: #111D4A;
+    position: relative;
+    left: 16rem;
+    top: 8rem;
+}
+.if {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #111D4A;
+    position: relative;
+    left: 17rem;
+    top: 7.5rem;
+    width: 505px;
+}
+.tour {
+    color: #FFFFFF;
+    font-family: Inter;
     font-weight: 600;
+    font-size: 15px;
+    line-height: 35px;
+    background: #111D4A;
+    width: 95px;
+    border-radius: 5px;
+    position: relative;
+    left: 17rem;
+    top: 8rem;
+}
+.tour > p {
+    padding: 1px;
+    margin-left: 5px;
+}
+.page {
+    background-color: #FFBE0B;
+    height: 550px;
+    width: 100% ;
+    border: 2px solid #000000;
+    position: relative;
+    bottom: 90rem;
+}
+.page .pic > img{
+    position:  relative;
+    left: 60rem;
+    bottom: 11rem;
+    height: 250px;
+}
+.cta {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    display: inline;
+}   
+.figures {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    display: inline;
+}
+.figures > p {
     display: inline;
     margin-left: 250px;
     position: relative;
+    left: 10.5rem;
+    top : 5rem;
+}
+.unders {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.unders > p {
+    display: inline;
+    margin-left: 250px;
+    position: relative;
+    left: 9.5rem;
+    top: 3rem;
+}
+.matsub {
+    width: 10px;
+}
+.bluep {
+    background: #3A86FF;
+    height: 350px;
+    position: relative;
+    bottom: 87rem;
+}
+.logo2 > p {
+    display: inline;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    position: relative;
+    left: 75rem;
     top: 2.5rem;
 }
-.p > p{
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 600;
+.logo2 > p:first-child {
+    color: white;
+}
+.logo2 > p:nth-child(2) {
+    color: #FF006E;
+    background: #FFBE0B;
+    border-radius: 5px;
+    padding: 3px;
+}
+.from {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    position: relative;
+    left: 75rem;
+    top: 8px;
+}
+.Access {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 450px;
+    line-height: 40px;
+    position: relative;
+    left: 55.5rem;
+}
+.long {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+    width: 490px;
+    line-height: 30px;
+    position: relative;
+    left: 55.5rem;
+}
+.explore {
+    color: #FF006E;
+    background: #FFBE0B;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    width: 220px;
+    padding-left: 5px;
+    border-radius: 5px;
+    position: relative;
+    left: 55.5rem;
+}
+.explore > p {
+    padding-left: 10px;
+}
+.envelope1 > img{
+    position: relative;
+    bottom:25rem;
+    left: 18rem;
+    width: 350px;
+}
+.purplep {
+    background: #8338EC;
+    height: 500px;
+    position: relative;
+    bottom: 87rem;
+}
+.start {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: relative;
+    left: 15rem;
+    top: 6rem;
+}
+.far {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+    width: 600px;
+    line-height: 30px;
+    position: relative;
+    left: 15rem;
+    top: 5rem;
+
+}
+.sign {
+    color: #FF006E;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #FFBE0B;
+    width: 120px;
+    border-radius: 7px;
+    padding-left: 12px;
+    position: relative;
+    left: 15rem;
+    top: 8rem;
+}
+.envelope2 > img {
+    position: relative;
+    bottom:10rem;
+    left: 58rem;
+    width: 350px;
+}
+.navyp {
+     background: #111D4A;
+     height: 500px;
+     position: relative;
+     bottom: 89rem;
+}
+.logo3 > p {
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+    font-family: Inter;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
     display: inline;
 }
-.p > p:first-child{
-    margin-left: 250px;
+.logo3 > p:nth-child(2) {
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 5px;
+    padding: 3px;
 }
-.p > p:nth-child(2){
-    margin-left: 243px;
-}
-.p > p:nth-child(3){
-    margin-left: 289px;
-}
-.p > p:nth-child(4){
-    margin-left: 313px;
-}
-.we > h1{
-    font-family: Montserrat;
-    font-size: 63px;
-    font-weight: 500;
-    letter-spacing: 3%;
-}
-.we > h1:first-child{
-    position: relative;
-    top: 5rem;
-    left: 67.5rem;
-}
-.we > h1:nth-child(2){
-    position: relative;
-    top: 1rem;
-    left: 67rem;
-    font-family: Pattaya;
-    font-size: 65px;
-    background: #F9C265;
-    border-radius: 50px;
-    height: 75px;
-    width: 200px;
-    text-align: center;
-    border: 3px solid black;
-    line-height: 125%;
-}
-.we > h1:nth-child(3){
-    position: relative;
-    left: 80rem;
-    bottom: 9rem;
-}
-.we > h1:nth-child(4){
-    position: relative;
-    bottom: 15rem;
-    left: 67rem;
-}
-.p2 {
-    font-family: Montserrat;
-    font-size: 25px;
+.crmci {
+    font-family: Inter;
+    color: #000000;
+    font-size: 14px;
     font-weight: 400;
-    width: 450px;
-    line-height: 150%;
     position: relative;
-    left: 67.5rem;
-    bottom: 17rem;
+    left: 2rem;
+    bottom: 1rem;
 }
-.sec3 {
-    background: #FDF6E4;
-    height: 650px;
+.powered {
+    font-family: Inter;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    position: relative;
+    bottom: 5rem;
+    line-height: 5px;
+}
+.border {
+    border: 1px solid black;
+    width: 1500px;
+}
+.footer {
+    position: relative;
+    bottom: 85rem;
 }
